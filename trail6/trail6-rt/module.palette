@@ -1,0 +1,12 @@
+<!--
+  Copyright 2025 TRAIL6. All Rights Reserved.
+ -->
+<?xml version="1.0" encoding="UTF-8"?>
+<bajaObjectGraph version="1.0">
+  <p m="b=baja" t="b:UnrestrictedFolder">
+    <p n="Trail6Network" m="x=trail6" t="x:Trail6Network"/>
+    <p n="Trail6Device" t="x:Trail6Device"/>
+    <p n="Trail6DeviceFolder" t="x:Trail6DeviceFolder"/>
+    <p n="Trail6PointFolder" t="x:Trail6PointFolder"/>
+  </p>
+</bajaObjectGraph>
