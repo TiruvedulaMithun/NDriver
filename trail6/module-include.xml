@@ -1,0 +1,36 @@
+<types>
+  <!--com.trail6.trail6.comm -->
+  <type class="com.trail6.trail6.comm.BTrail6SerialCommConfig" name="Trail6SerialCommConfig"/>
+  <type class="com.trail6.trail6.comm.BTrail6TcpCommConfig" name="Trail6TcpCommConfig"/>
+  <type class="com.trail6.trail6.comm.BTrail6TcpCommConfigExt" name="Trail6TcpCommConfigExt"/>
+
+  <!--com.trail6.trail6.learn -->
+  <type class="com.trail6.trail6.learn.BTrail6LearnDeviceEntry" name="Trail6LearnDeviceEntry"/>
+  <type class="com.trail6.trail6.learn.BTrail6LearnDevicesJob" name="Trail6LearnDevicesJob"/>
+
+  <!--com.trail6.trail6.point -->
+  <type class="com.trail6.trail6.point.BTrail6PointFolder" name="Trail6PointFolder"/>
+  <type class="com.trail6.trail6.point.BTrail6PointDeviceExt" name="Trail6PointDeviceExt"/>
+  <type class="com.trail6.trail6.point.BTrail6PointDiscoveryLeaf" name="Trail6PointDiscoveryLeaf"/>
+  <type class="com.trail6.trail6.point.BTrail6PointDiscoveryPreferences" name="Trail6PointDiscoveryPreferences"/>
+  <type class="com.trail6.trail6.point.BTrail6ProxyExt" name="Trail6ProxyExt"/>
+
+  <!--com.trail6.trail6 -->
+  <type class="com.trail6.trail6.BTrail6Network" name="Trail6Network"/>
+  <type class="com.trail6.trail6.BTrail6Device" name="Trail6Device"/>
+  <type class="com.trail6.trail6.BTrail6DeviceFolder" name="Trail6DeviceFolder"/>
+
+  <!--com.tridium.opcUaClient.ui-->
+  <type class="com.trail6.trail6.ui.BTrail6DeviceManager" name="BTrail6DeviceManager">
+    <agent>
+      <on type="x:Trail6Device"/>
+      <on type="x:Trail6DeviceFolder"/>
+    </agent>
+  </type>
+  <type class="com.trail6.trail6.ui.BTrail6PointManager" name="Trail6PointManager">
+    <agent>
+      <on type="x:Trail6PointDeviceExt"/>
+      <on type="x:Trail6PointFolder"/>
+    </agent>
+  </type>
+</types>
