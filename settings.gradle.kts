@@ -119,7 +119,7 @@ configure<MultiProjectExtension> {
   // Note: If you have specific subfolder(s) to include, you can pass their relative
   // path as an argument:
   //
-  //   findProjects("trail6")
+  //   findProjects("folder1")
   //   findProjects("folder2")
   //
   // Otherwise, this will find all projects under the root directory with the following layout:
