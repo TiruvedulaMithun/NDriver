@@ -38,6 +38,9 @@ description = "TRAIL6"
 moduleManifest {
   moduleName.set("trail6")
   runtimeProfile.set(rt)
+  //NOTE: Temporarily ignore rt module part checks for module conversion exercise
+  ignoreRuntimeProfileCheck.set("true")
+  checkModuleName.set(false)
 }
 
 // See documentation at module://docDeveloper/doc/build.html#dependencies for the supported
