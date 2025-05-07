@@ -54,6 +54,11 @@ dependencies {
   api(":driver")
   api(":ndriver")
 
+  //  wb dependencies
+  api(":bajaui")
+  api(":gx")
+  api(":workbench")
+
   // Test Niagara module dependencies
   moduleTestImplementation(":test")
 }

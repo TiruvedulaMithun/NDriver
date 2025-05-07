@@ -36,7 +36,7 @@ public class BTrail6DeviceManager
 //region /*+ ------------ BEGIN BAJA AUTO GENERATED CODE ------------ +*/
 //@formatter:off
 /*@ $com.trail6.trail6.ui.BTrail6DeviceManager(4128431385)1.0$ @*/
-/* Generated Wed May 07 10:17:22 EDT 2025 by Slot-o-Matic (c) Tridium, Inc. 2012-2025 */
+/* Generated Wed May 07 11:13:26 EDT 2025 by Slot-o-Matic (c) Tridium, Inc. 2012-2025 */
 
   //region Type
 

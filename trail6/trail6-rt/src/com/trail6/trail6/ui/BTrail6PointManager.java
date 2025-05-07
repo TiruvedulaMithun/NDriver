@@ -9,16 +9,12 @@ import javax.baja.util.*;
 import javax.baja.gx.*;
 import javax.baja.ui.*;
 import javax.baja.control.*;
-import javax.baja.driver.*;
 import javax.baja.driver.point.*;
 import javax.baja.workbench.mgr.*;
 import javax.baja.workbench.mgr.folder.*;
 import javax.baja.nre.annotations.*;
 
 import javax.baja.ndriver.ui.point.*;
-
-import com.trail6.trail6.*;
-import com.trail6.trail6.point.*;
 
 /**
  * BTrail6PointManager provides the user interface to manage
@@ -35,7 +31,7 @@ public class BTrail6PointManager
 //region /*+ ------------ BEGIN BAJA AUTO GENERATED CODE ------------ +*/
 //@formatter:off
 /*@ $com.trail6.trail6.ui.BTrail6PointManager(794157490)1.0$ @*/
-/* Generated Wed May 07 10:17:22 EDT 2025 by Slot-o-Matic (c) Tridium, Inc. 2012-2025 */
+/* Generated Wed May 07 11:13:26 EDT 2025 by Slot-o-Matic (c) Tridium, Inc. 2012-2025 */
 
   //region Type
 
