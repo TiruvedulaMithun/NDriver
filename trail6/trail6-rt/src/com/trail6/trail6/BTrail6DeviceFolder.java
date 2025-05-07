@@ -9,7 +9,7 @@ import javax.baja.sys.BComponent;
 import javax.baja.sys.Sys;
 import javax.baja.sys.Type;
 
-import com.tridium.ndriver.BNDeviceFolder;
+import javax.baja.ndriver.BNDeviceFolder;
 
 /**
  * BTrail6DeviceFolder is a folder for BTrail6Device.

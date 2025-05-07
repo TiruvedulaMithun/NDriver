@@ -14,12 +14,12 @@ import javax.baja.sys.Sys;
 import javax.baja.sys.Type;
 import javax.baja.util.Lexicon;
 
-import com.tridium.ndriver.BNNetwork;
-import com.tridium.ndriver.comm.*;
-import com.tridium.ndriver.comm.http.*;
-import com.tridium.ndriver.datatypes.*;
-import com.tridium.ndriver.discover.*;
-import com.tridium.ndriver.poll.*;
+import javax.baja.ndriver.BNNetwork;
+import javax.baja.ndriver.comm.*;
+import javax.baja.ndriver.comm.http.*;
+import javax.baja.ndriver.datatypes.*;
+import javax.baja.ndriver.discover.*;
+import javax.baja.ndriver.poll.*;
 
 import com.trail6.trail6.comm.Trail6Listener;
 import com.trail6.trail6.comm.BTrail6SerialCommConfig;

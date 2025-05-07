@@ -6,9 +6,9 @@ package com.trail6.trail6.message;
 
 import java.io.*;
 
-import com.tridium.ndriver.comm.*;
-import com.tridium.ndriver.datatypes.*;
-import com.tridium.ndriver.io.TypedInputStream;
+import javax.baja.ndriver.comm.*;
+import javax.baja.ndriver.datatypes.*;
+import javax.baja.ndriver.io.TypedInputStream;
 
 /**
  * Trail6Message is super class for all trail6 messages

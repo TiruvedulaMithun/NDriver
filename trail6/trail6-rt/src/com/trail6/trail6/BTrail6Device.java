@@ -14,9 +14,9 @@ import javax.baja.sys.Property;
 import javax.baja.sys.Sys;
 import javax.baja.sys.Type;
 
-import com.tridium.ndriver.BNDevice;
-import com.tridium.ndriver.poll.BINPollable;
-import com.tridium.ndriver.util.SfUtil;
+import javax.baja.ndriver.BNDevice;
+import javax.baja.ndriver.poll.BINPollable;
+import javax.baja.ndriver.util.SfUtil;
 
 import com.trail6.trail6.point.*;
 

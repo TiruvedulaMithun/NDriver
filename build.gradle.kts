@@ -42,4 +42,11 @@ subprojects {
   repositories {
     mavenCentral()
   }
+  pluginManager.withPlugin("java-base") {
+    configure<JavaPluginExtension> {
+      toolchain {
+        languageVersion.set(JavaLanguageVersion.of(21))
+      }
+    }
+  }
 }

@@ -31,8 +31,8 @@ import javax.baja.sys.Property;
 import javax.baja.sys.Sys;
 import javax.baja.sys.Type;
 
-import com.tridium.ndriver.discover.BNPointDiscoveryLeaf;
-import com.tridium.ndriver.util.SfUtil;
+import javax.baja.ndriver.discover.BNPointDiscoveryLeaf;
+import javax.baja.ndriver.util.SfUtil;
 
 /**
  * BTrail6PointDiscoveryLeaf is container class for point elements to display in

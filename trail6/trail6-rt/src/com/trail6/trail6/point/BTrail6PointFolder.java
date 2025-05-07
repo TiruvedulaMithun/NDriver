@@ -8,7 +8,7 @@ import javax.baja.nre.annotations.NiagaraType;
 import javax.baja.sys.Sys;
 import javax.baja.sys.Type;
 
-import com.tridium.ndriver.point.BNPointFolder;
+import javax.baja.ndriver.point.BNPointFolder;
 
 import com.trail6.trail6.*;
 

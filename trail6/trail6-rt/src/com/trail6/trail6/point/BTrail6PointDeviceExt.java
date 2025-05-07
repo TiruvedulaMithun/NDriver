@@ -10,8 +10,8 @@ import javax.baja.sys.Property;
 import javax.baja.sys.Sys;
 import javax.baja.sys.Type;
 
-import com.tridium.ndriver.discover.*;
-import com.tridium.ndriver.point.*;
+import javax.baja.ndriver.discover.*;
+import javax.baja.ndriver.point.*;
 
 import com.trail6.trail6.*;
 

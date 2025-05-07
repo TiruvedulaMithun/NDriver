@@ -45,25 +45,26 @@ moduleManifest {
 dependencies {
   // NRE dependencies
   nre(":nre")
+  nre(":niagaraAnnotationProcessors")
 
   // Niagara module dependencies
-  api(":alarm-rt")
+  api(":alarm")
   api(":baja")
-  api(":bajaui-wb")
-  api(":control-rt")
-  api(":driver-rt")
-  api(":driver-wb")
-  api(":gx-rt")
-  api(":gx-wb")
-  api(":ndriver-rt")
-  api(":ndriver-wb")
-  api(":workbench-wb")
+  api(":bajaui")
+  api(":control")
+  api(":driver")
+  api(":driver")
+  api(":gx")
+  api(":gx")
+  api(":ndriver")
+  api(":ndriver")
+  api(":workbench")
 
   // Project dependencies
   api(project(":trail6-rt"))
 
   // Test Niagara module dependencies
-  moduleTestImplementation(":test-wb")
+  moduleTestImplementation(":test")
 }
 
 tasks.named<Bajadoc>("bajadoc") {

@@ -8,7 +8,7 @@ import javax.baja.nre.annotations.NiagaraType;
 import javax.baja.sys.Sys;
 import javax.baja.sys.Type;
 
-import com.tridium.ndriver.discover.BNDiscoveryPreferences;
+import javax.baja.ndriver.discover.BNDiscoveryPreferences;
 
 /**
  * BTrail6PointDiscoveryPreferences controls the type of discovery leafs using during

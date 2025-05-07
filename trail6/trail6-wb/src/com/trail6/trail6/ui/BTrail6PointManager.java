@@ -15,7 +15,7 @@ import javax.baja.workbench.mgr.*;
 import javax.baja.workbench.mgr.folder.*;
 import javax.baja.nre.annotations.*;
 
-import com.tridium.ndriver.ui.point.*;
+import javax.baja.ndriver.ui.point.*;
 
 import com.trail6.trail6.*;
 import com.trail6.trail6.point.*;

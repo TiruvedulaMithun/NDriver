@@ -45,16 +45,17 @@ moduleManifest {
 dependencies {
   // NRE dependencies
   nre(":nre")
+  nre(":niagaraAnnotationProcessors")
 
   // Niagara module dependencies
-  api(":alarm-rt")
+  api(":alarm")
   api(":baja")
-  api(":control-rt")
-  api(":driver-rt")
-  api(":ndriver-rt")
+  api(":control")
+  api(":driver")
+  api(":ndriver")
 
   // Test Niagara module dependencies
-  moduleTestImplementation(":test-wb")
+  moduleTestImplementation(":test")
 }
 
 tasks.named<Bajadoc>("bajadoc") {

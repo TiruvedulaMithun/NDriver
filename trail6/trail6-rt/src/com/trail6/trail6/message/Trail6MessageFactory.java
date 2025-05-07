@@ -4,9 +4,9 @@
 
 package com.trail6.trail6.message;
 
-import com.tridium.ndriver.comm.IMessageFactory;
-import com.tridium.ndriver.comm.LinkMessage;
-import com.tridium.ndriver.comm.NMessage;
+import javax.baja.ndriver.comm.IMessageFactory;
+import javax.baja.ndriver.comm.LinkMessage;
+import javax.baja.ndriver.comm.NMessage;
 
 /**
  * Trail6MessageFactory implementation of IMessageFactory.

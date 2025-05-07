@@ -4,9 +4,9 @@
 
 package com.trail6.trail6.comm;
 
-import com.tridium.ndriver.comm.ICommListener;
-import com.tridium.ndriver.comm.NMessage;
-import com.tridium.ndriver.datatypes.BCommConfig;
+import javax.baja.ndriver.comm.ICommListener;
+import javax.baja.ndriver.comm.NMessage;
+import javax.baja.ndriver.datatypes.BCommConfig;
 
 /**
  * Trail6Listener processes unsolicited messages.

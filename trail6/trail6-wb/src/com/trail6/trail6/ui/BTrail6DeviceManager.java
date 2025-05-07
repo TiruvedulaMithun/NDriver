@@ -4,6 +4,7 @@
 
 package com.trail6.trail6.ui;
 
+import javax.baja.driver.ui.device.DeviceExtsColumn;
 import javax.baja.sys.*;
 import javax.baja.util.*;
 import javax.baja.gx.*;
@@ -14,7 +15,7 @@ import javax.baja.workbench.mgr.*;
 import javax.baja.workbench.mgr.folder.*;
 import javax.baja.nre.annotations.*;
 
-import com.tridium.ndriver.ui.device.*;
+import javax.baja.ndriver.ui.device.*;
 import com.tridium.util.ArrayUtil;
 
 import com.trail6.trail6.*;

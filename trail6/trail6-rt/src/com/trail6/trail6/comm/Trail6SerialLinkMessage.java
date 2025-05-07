@@ -6,7 +6,7 @@ package com.trail6.trail6.comm;
 
 import java.io.InputStream;
 
-import com.tridium.ndriver.comm.LinkMessage;
+import javax.baja.ndriver.comm.LinkMessage;
 
 /**
  * Trail6SerialLinkMessage streams data to and from a byte array representation.

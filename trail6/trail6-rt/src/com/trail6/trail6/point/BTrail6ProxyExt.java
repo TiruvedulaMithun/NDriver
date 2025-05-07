@@ -16,7 +16,7 @@ import javax.baja.sys.Sys;
 import javax.baja.sys.Type;
 
 import com.tridium.driver.util.DrUtil;
-import com.tridium.ndriver.point.BNProxyExt;
+import javax.baja.ndriver.point.BNProxyExt;
 
 import com.trail6.trail6.*;
 

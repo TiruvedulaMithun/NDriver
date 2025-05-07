@@ -8,10 +8,10 @@ import javax.baja.nre.annotations.NiagaraType;
 import javax.baja.sys.Sys;
 import javax.baja.sys.Type;
 
-import com.tridium.ndriver.comm.IMessageFactory;
-import com.tridium.ndriver.comm.LinkMessage;
-import com.tridium.ndriver.comm.NLinkMessageFactory;
-import com.tridium.ndriver.datatypes.BTcpCommConfig;
+import javax.baja.ndriver.comm.IMessageFactory;
+import javax.baja.ndriver.comm.LinkMessage;
+import javax.baja.ndriver.comm.NLinkMessageFactory;
+import javax.baja.ndriver.datatypes.BTcpCommConfig;
 
 import com.trail6.trail6.message.Trail6MessageFactory;
 
