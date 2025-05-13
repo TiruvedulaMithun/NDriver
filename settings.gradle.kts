@@ -1,5 +1,5 @@
 /*
- * Copyright 2025 TRAIL6. All Rights Reserved.
+ * Copyright 2025 mithun. All Rights Reserved.
  */
 
 import com.tridium.gradle.plugins.settings.MultiProjectExtension
@@ -131,4 +131,4 @@ configure<MultiProjectExtension> {
   findProjects()
 }
 
-rootProject.name = "trail6"
+rootProject.name = "trail14"

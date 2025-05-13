@@ -1,5 +1,5 @@
 /*
- * Copyright 2025 TRAIL6. All Rights Reserved.
+ * Copyright 2025 mithun. All Rights Reserved.
  */
 
 plugins {
@@ -27,7 +27,7 @@ plugins {
 vendor {
   // defaultVendor sets the "vendor" attribute on module and dist files; it's
   // what's shown in Niagara when viewing a module or dist.
-  defaultVendor("TRAIL6")
+  defaultVendor("mithun")
 
   // defaultModuleVersion sets the "vendorVersion" attribute on all modules
   defaultModuleVersion("1.0")
